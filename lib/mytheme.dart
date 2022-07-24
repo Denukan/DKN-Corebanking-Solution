@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:denukan_business_solutions/shared.dart';
 import 'package:denukan_business_solutions/ServiceClass.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class ThemeSettings with ChangeNotifier {
   final darkTheme = ThemeData(

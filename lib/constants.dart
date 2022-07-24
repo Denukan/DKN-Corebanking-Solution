@@ -5,6 +5,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'Welcome.dart';
 
 const kPrimaryColor = Color(0xff55c282);
+const white = Color(0xFFFFFFFF);
+
 const kBackgroundHome4 = Color(0xFFE8EDF2);
 const kBackgroundHome3 = Color(0xFFFCF8FD);
 const kBackgroundHome2 = Color(0xFFF7F5FC);

@@ -1,6 +1,7 @@
 import 'package:denukan_business_solutions/constants.dart';
 import 'package:denukan_business_solutions/main.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Welcome extends StatefulWidget {
   //String title;
@@ -21,7 +22,6 @@ class _WelcomeState extends State<Welcome> {
     //     darkMode = true;
     //   });
     // }
-
     return Scaffold(
       body: Container(
         child: Center(
@@ -30,11 +30,11 @@ class _WelcomeState extends State<Welcome> {
               const SizedBox(
                 height: 200,
               ),
-              const Text(
+              Text(
                 "Denukan Business Solutions",
-                style: TextStyle(
+                style: GoogleFonts.poppins(
                   fontSize: 30,
-                  fontFamily: "SecularOne",
+                  //fontFamily: "SecularOne",
                   fontWeight: FontWeight.w100,
                   color: kPrimaryColor,
                 ),
